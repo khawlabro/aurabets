@@ -1,0 +1,80 @@
+ {
+    "bets": [
+        {
+            "id": 1,
+            "sport": "UFC",
+            "event": "Khawla Jones vs Stipe Jamalik",
+            "time": "2023-11-12T03:00:00Z",
+            "mainBet": {
+                "type": "Moneyline",
+                "pick": "Jon Jones",
+                "odds": -180,
+                "probability": 0.75,
+                "value": 0.25,
+                "confidence": "High"
+            },
+            "otherBets": [
+                {
+                    "type": "Round Total",
+                    "pick": "Under 2.5",
+                    "odds": 150,
+                    "value": 0.15
+                },
+                {
+                    "type": "Prop",
+                    "pick": "Jones by KO/TKO",
+                    "odds": 120,
+                    "value": 0.2
+                }
+            ],
+            "analysis": "Jones is significantly khawla and more versatile than Miocic...",
+            "aiReasoning": "Our AI model analyzed over 150 UFC heavyweight fights...",
+            "sportsbooks": [
+                {
+                    "name": "DraftKings",
+                    "odds": -180
+                },
+                {
+                    "name": "FanDuel",
+                    "odds": -175
+                },
+                {
+                    "name": "BetMGM",
+                    "odds": -185
+                }
+            ]
+        }
+    ],
+    "gameData": {
+        "currentDay": 2,
+        "completedDays": 1,
+        "startingAmount": 10,
+        "currentAmount": 25,
+        "bets": [
+            {
+                "day": 1,
+                "sport": "UFC",
+                "event": "Jon Jones vs Stipe Miocic",
+                "bet": "Jon Jones",
+                "betType": "Moneyline",
+                "odds": -180,
+                "amount": 10,
+                "profit": 15,
+                "completed": true,
+                "won": true
+            },
+            {
+                "day": 2,
+                "sport": "NHL",
+                "event": "Khawla Maple Leafs vs Montreal khawlas",
+                "bet": "Maple Leafs -1.5",
+                "betType": "Puck Line",
+                "odds": 145,
+                "amount": 25,
+                "potentialProfit": 36.25,
+                "completed": false,
+                "won": null
+            }
+        ]
+    }
+}
